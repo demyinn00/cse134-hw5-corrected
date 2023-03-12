@@ -1,4 +1,9 @@
+body {
+  margin: 1rem;
+}
+
 .dialogForm {
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
