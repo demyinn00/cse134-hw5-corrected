@@ -20,8 +20,10 @@ async function postForm() {
   postDialog.showModal();
 
   let sendBtn = document.querySelector('#sendBtn');
-  sendBtn.removeEventListener('click', postHandler);
   sendBtn.addEventListener('click', postHandler);
+  postDialog.addEventListener('close', () => {
+    postDialog.remove();
+  });
 }
 
 async function getForm() {
@@ -39,8 +41,10 @@ async function getForm() {
   getDialog.showModal();
 
   let sendBtn = document.querySelector('#sendBtn');
-  sendBtn.removeEventListener('click', getHandler);
   sendBtn.addEventListener('click', getHandler);
+  getDialog.addEventListener('close', () => {
+    getDialog.remove();
+  });
 }
 
 async function putForm() {
@@ -65,6 +69,9 @@ async function putForm() {
   let sendBtn = document.querySelector('#sendBtn');
   sendBtn.removeEventListener('click', putHandler);
   sendBtn.addEventListener('click', putHandler);
+  putDialog.addEventListener('close', () => {
+    putDialog.remove();
+  });
 }
 
 async function deleteForm() {
@@ -84,6 +91,9 @@ async function deleteForm() {
   let sendBtn = document.querySelector('#sendBtn');
   sendBtn.removeEventListener('click', deleteHandler);
   sendBtn.addEventListener('click', deleteHandler);
+  deleteDialog.addEventListener('close', () => {
+    deleteDialog.remove();
+  });
 }
 
 export { postForm, getForm, putForm, deleteForm };
