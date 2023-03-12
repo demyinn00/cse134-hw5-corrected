@@ -1,0 +1,22 @@
+{
+  "name": "cse134-hw5-corrected",
+  "version": "1.0.0",
+  "description": "David Em-Yinn <br> A16569812 <br> [home](https://spectacular-hamster-3992c3.netlify.app/) <br> [native dialog](https://spectacular-hamster-3992c3.netlify.app/html/nativedialogs.html)  <br> [custom dialog](https://spectacular-hamster-3992c3.netlify.app/html/customdialog.html)  <br> [crud](https://spectacular-hamster-3992c3.netlify.app/html/crud.html) <br> [styled crud](https://spectacular-hamster-3992c3.netlify.app/html/styledcrud.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js -d html/js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
