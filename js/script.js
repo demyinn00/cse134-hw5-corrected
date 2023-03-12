@@ -1,11 +1,30 @@
-import { addPost, deletePost, listPosts } from "./blog.js";
-
-window.addEventListener('DOMContentLoaded', init)
+import { postForm, getForm, putForm, deleteForm } from './methodtest.js'
 
 function init() {
-  listPosts();
-  const addPostBtn = document.querySelector('#add-post-btn');
-  addPostBtn.addEventListener('click', () => {
-    addPost()
+  const requestForm = document.querySelector('#requestForm');
+  const resOutput = document.querySelector('#resOutput');
+
+  requestForm.addEventListener('click', (event) => {
+    if (event.target.nodeName === 'BUTTON') {
+      const buttonId = event.target.id;
+      resOutput.style.visibility = 'hidden';
+
+      switch (buttonId) {
+        case 'postBtn':
+          postForm();
+          break;
+        case 'getBtn':
+          getForm();
+          break;
+        case 'putBtn':
+          putForm();
+          break;
+        case 'deleteBtn':
+          deleteForm();
+          break;
+      }
+    }
   });
 }
+
+document.addEventListener('DOMContentLoaded', init);
