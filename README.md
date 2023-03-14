@@ -3,13 +3,14 @@
 David Em-Yinn
 <br>
 A16569812
+
+### Site urls
 <br>
-[home](https://spectacular-hamster-3992c3.netlify.app/)
+[home](https://clinquant-cuchufli-90d4ee.netlify.app/index.html)
 <br>
-[native dialog](https://spectacular-hamster-3992c3.netlify.app/html/nativedialogs.html) 
+[method test](https://clinquant-cuchufli-90d4ee.netlify.app/html/methodtest.html) 
 <br>
-[custom dialog](https://spectacular-hamster-3992c3.netlify.app/html/customdialog.html) 
+[webcomponent](https://clinquant-cuchufli-90d4ee.netlify.app/html/webcomponent.html) 
 <br>
-[crud](https://spectacular-hamster-3992c3.netlify.app/html/crud.html)
+[extra credit](https://clinquant-cuchufli-90d4ee.netlify.app/html/extracredit.html)
 <br>
-[styled crud](https://spectacular-hamster-3992c3.netlify.app/html/styledcrud.html)
