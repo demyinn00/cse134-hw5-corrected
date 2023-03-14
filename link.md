@@ -1,35 +1,43 @@
-### These are the links to the deployed site: <br>
-[home](https://spectacular-hamster-3992c3.netlify.app/)
+### Deployed site links
+
+[repo](https://github.com/demyinn00/cse134-hw5-corrected)
+
+[home](https://clinquant-cuchufli-90d4ee.netlify.app/index.html)
 <br>
-[native dialog](https://spectacular-hamster-3992c3.netlify.app/html/nativedialogs.html) 
+[method test](https://clinquant-cuchufli-90d4ee.netlify.app/html/methodtest.html) 
 <br>
-[custom dialog](https://spectacular-hamster-3992c3.netlify.app/html/customdialog.html) 
+[webcomponent](https://clinquant-cuchufli-90d4ee.netlify.app/html/webcomponent.html) 
 <br>
-[crud](https://spectacular-hamster-3992c3.netlify.app/html/crud.html)
+[extra credit](https://clinquant-cuchufli-90d4ee.netlify.app/html/extracredit.html)
 <br>
-[styled crud](https://spectacular-hamster-3992c3.netlify.app/html/styledcrud.html)
 
 ---
-### These are the links to the github repo and the files in the repo
+### PART 1 Files and Notes
+For this part, all the meat and potatoes of the request handling is actually in handlers.js instead of methodtest.js. I wanted to modularize the code. 
 
-[repo](https://github.com/demyinn00/cse134-hw4)
-<br>
-[nativedialogs.html](https://github.com/demyinn00/cse134-hw4/blob/main/html/nativedialogs.html)
-<br>
-[customdialog.js](https://github.com/demyinn00/cse134-hw4/blob/main/js/customdialog.js)
-<br>
-[crud.html](https://github.com/demyinn00/cse134-hw4/blob/main/html/crud.html)
-<br>
-[blog.js](https://github.com/demyinn00/cse134-hw4/blob/main/js/blog.js)
-<br>
-[styledcrud.html](https://github.com/demyinn00/cse134-hw4/blob/main/html/styledcrud.html)
+In other words, methodtest.js simply creates a form to take input and then calls the respective request handlers.
 
-### These are links to the extra files I used
+script.js is just a script that the methodtest.html file will call.
 
-[customdialog.html](https://github.com/demyinn00/cse134-hw4/blob/main/html/customdialog.html)
+[methodtest.html](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/html/methodtest.html)
 <br>
-[main.js](https://github.com/demyinn00/cse134-hw4/blob/main/js/main.js)
+[methodtest.js](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/js/methodtest.js)
 <br>
-[script.js](https://github.com/demyinn00/cse134-hw4/blob/main/js/script.js)
+[handlers.js](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/js/handlers.js)
 <br>
-[styledcrud.css](https://github.com/demyinn00/cse134-hw4/blob/main/css/styledcrud.css)
+[script.js](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/js/script.js)
+
+
+### PART 2 Files
+
+[webcomponent.html](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/html/webcomponent.html)
+<br>
+[ButtonCount.js](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/js/ButtonCount.js)
+
+
+### PART 3 (EXTRA CREDIT) Files and Notes
+I used react to implement the button. I also needed to create a .babel file and npm install react which gave me node_modules. I don't think it's worth including them since it's all just configuration files to set up react. 
+
+[extracredit.html](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/html/extracredit.html)
+<br>
+[react_ButtonCount.js](https://github.com/demyinn00/cse134-hw5-corrected/blob/main/js/react_ButtonCount.js)
